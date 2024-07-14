@@ -142,7 +142,7 @@ const addelection = () => {
             </select>
           </div>
           <div className={Styles.input_group}>
-          <Input
+          <Input className={Styles.input_group}
             inputType='text'
             title='Description'
             placeholder='Description of election'
@@ -152,22 +152,6 @@ const addelection = () => {
           />
           </div>
 
-          {/* <Input
-            inputType='text'
-            title='Startdate'
-            placeholder='Election end-date'
-            handleClick={e =>
-              setCandidateform({ ...electionform, startdate: e.target.value })
-            }
-          />
-          <Input
-            inputType='text'
-            title='enddate'
-            placeholder='Election End date'
-            handleClick={e =>
-              setCandidateform({ ...candidateform, enddate: e.target.value })
-            }
-          /> */}
           <div className={Styles.input_group}>
             <label htmlFor='startDate'>Start Date</label>
             <input
@@ -197,7 +181,8 @@ const addelection = () => {
         </div>
       </div>
       <div className={Styles.createdVoter}>
-        <div className={Styles.createdVoter__info}>
+        {/* </div> <div className={Styles.createdVoter__info}> */}
+        <div className={Styles.createdVoter_Info}>
           <Image src={images.creator} alt='user Profiles' />
           <p>Notice for User</p>
           <p>

@@ -16,7 +16,7 @@
 }
 
 .input__box input::placeholder{
-    color: #2d0036;
+    color: #fff;
     font-weight: 500;
     text-transform: capitalize;
 }

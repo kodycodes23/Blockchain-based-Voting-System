@@ -180,7 +180,8 @@ const allowedVoter = () => {
         </div>
       </div>
       <div className={Styles.createdVoter}>
-        <div className={Styles.createdVoter__info}>
+       {/* </div> <div className={Styles.createdVoter__info}> */}
+        <div className={Styles.createdVoter_Info}>
           <Image src={images.creator} alt='user Profiles' />
           <p>Notice for User</p>
           <p>
